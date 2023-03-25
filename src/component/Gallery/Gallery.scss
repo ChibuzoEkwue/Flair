@@ -1,0 +1,41 @@
+.gallery {
+	margin-top: 5rem;
+
+	.container {
+		width: 1200px;
+		margin: 0 auto;
+		h2 {
+			font-family: Manuale;
+			font-size: 60px;
+			font-weight: 600;
+			line-height: 92px;
+			letter-spacing: 0em;
+			text-align: center;
+			margin-bottom: 4rem;
+		}
+		.cardlist {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+			gap: 3px;
+		}
+		div {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			button {
+				width: 279px;
+				height: 60px;
+				background: #2b2b2b;
+				border-radius: 8px;
+				font-family: "Manuale";
+				font-style: normal;
+				font-weight: 600;
+				font-size: 18px;
+				line-height: 28px;
+				color: #ffffff;
+				border: none;
+				margin-top: 5rem;
+			}
+		}
+	}
+}

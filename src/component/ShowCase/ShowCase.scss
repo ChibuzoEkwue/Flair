@@ -1,0 +1,52 @@
+@import "../../variables";
+.showcase {
+	margin-top: 8rem;
+	.container {
+		width: 1200px;
+		display: flex;
+		flex-direction: row;
+		margin: 0 auto;
+		.left {
+			flex: 2;
+			img {
+				width: 672px;
+				height: 500px;
+			}
+		}
+		.right {
+			flex: 1;
+			padding-top: 100px;
+			h2 {
+				font-family: Manuale;
+				font-size: 48px;
+				font-weight: 600;
+				line-height: 68px;
+				letter-spacing: 0em;
+				text-align: left;
+			}
+			p {
+				font-family: Manuale;
+				font-size: 20px;
+				font-weight: 500;
+				line-height: 32px;
+				letter-spacing: 0em;
+				text-align: left;
+			}
+			button {
+				width: 191px;
+				height: 60px;
+				padding: 8px;
+				border: none;
+				color: white;
+				margin-top: 2em;
+				font-family: "Manuale";
+				font-weight: 600;
+				font-size: 18px;
+				text-transform: capitalize;
+				color: #ffffff;
+				background: $main-color;
+				line-height: 28px;
+			}
+		}
+	}
+}
